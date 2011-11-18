@@ -49,7 +49,20 @@
 	</developers>
 	
 	<dependencies>
-	   
+	   <dependency>
+	       <groupId>org.apache.commons</groupId>
+	       <artifactId>functor</artifactId>
+	       <version>1.0-SNAPSHOT</version>
+	       <scope>system</scope>
+	       <systemPath>${basedir}/commons-functor-1.0-20111115-SNAPSHOT.jar</systemPath>
+	   </dependency>
+	   <dependency>
+	   	<groupId>org.testng</groupId>
+	   	<artifactId>testng</artifactId>
+	   	<version>6.3</version>
+	   </dependency>
 	</dependencies>
+	
+	<!-- Three is a magic number -->
 
 </project>

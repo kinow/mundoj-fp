@@ -33,4 +33,9 @@ public abstract class AbstractParser {
 
 	public abstract Message parse(String payload);
 	
+	public String extractMessageMimeType() {
+		// ...
+		return null;
+	}
+	
 }
